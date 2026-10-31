@@ -1,0 +1,49 @@
+# Python environments and bytecode
+.venv/
+venv/
+__pycache__/
+**/__pycache__/
+*.py[cod]
+
+# Test runner output (keep tests/ source files tracked)
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+test-results/
+test-artifacts/
+test_*.db
+*.test.db
+tmp*/
+**/tmp*/
+
+# Local credentials/configuration; keep the safe template
+.env
+.env.*
+!.env.example
+
+# Local application and test databases/backups
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+*.db-wal
+*.db-shm
+database_backups/
+private_storage/
+
+# Frontend dependencies and generated build output
+frontend/node_modules/
+frontend/dist/
+
+# Model download cache and non-runtime model intermediates
+model/.cache/
+model/final_model_backup.keras
+model/final_model_temp.keras
+
+# Generated local test/inference artifacts
+test_image.*
+gradcam_result.jpg
+
+# Generated LinkedIn workflow export (keep outside source history)
+GlucoVision_LinkedIn_Workflow.mp4
