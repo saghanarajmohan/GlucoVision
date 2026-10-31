@@ -45,5 +45,4 @@ model/final_model_temp.keras
 test_image.*
 gradcam_result.jpg
 
-# Generated LinkedIn workflow export (keep outside source history)
-GlucoVision_LinkedIn_Workflow.mp4
+
